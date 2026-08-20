@@ -16,7 +16,7 @@
             $nome = $_REQUEST["nome"] ?? "Nome não informado"; // Passando o valor de nome do HTML para $nome do PHP
             $sobrenome = $_REQUEST["sobrenome"] ?? "Sobrenome não informado"; // Passando o valor de sobrenome do HTML para $sobrenome do PHP
             
-            echo "Seja bem vindo $nome $sobrenome! Esse é um teste de PHP"
+            echo "Seja bem vindo <strong>$nome $sobrenome</strong>! Esse é um teste de PHP"
         ?>
         <p><a href="javascript:history.go(-1)">Voltar</a></p> <!-- "Botão" para voltar para a pagina anterior -->
     </main>
