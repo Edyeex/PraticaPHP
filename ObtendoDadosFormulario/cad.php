@@ -13,8 +13,8 @@
     </header>
     <main>
         <?php 
-            $nome = $_REQUEST["nome"] ?? "Nome não informado"; // Passando o valor de nome do HTML para $nome do PHP
-            $sobrenome = $_REQUEST["sobrenome"] ?? "Sobrenome não informado"; // Passando o valor de sobrenome do HTML para $sobrenome do PHP
+            $nome = $_REQUEST["nome"] ?: "Nome não informado"; // Passando o valor de nome do HTML para $nome do PHP
+            $sobrenome = $_REQUEST["sobrenome"] ?: "Sobrenome não informado"; // Passando o valor de sobrenome do HTML para $sobrenome do PHP
             
             echo "Seja bem vindo <strong>$nome $sobrenome</strong>! Esse é um teste de PHP"
         ?>
