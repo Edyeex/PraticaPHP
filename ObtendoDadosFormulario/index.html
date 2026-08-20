@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtendo dados de formulario com PHP</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linkando o CSS-->
+</head>
+<body>
+    <header>
+        <h1>Apresente-se</h1>
+        <section>
+            <form action="cad.php" method="get"> <!-- Interligando o arquivo PHP com o HTML-->
+                <label for="nome" >Nome</label> <!-- Rótulo -->
+                <input type="text" name="nome" id="IDNome"> <!-- Campo para informar um valor -->
+                <label for="sobrenome">Sobrenome</label> <!-- Rótulo-->
+                <input type="text" name="sobrenome" id="IDSobrenome"> <!-- Campo para informar um valor -->
+                <input type="submit" value="Enviar"> <!-- Botão de enviar -->
+            </form>
+        </section>
+    </header>
+    
+</body>
+</html>
